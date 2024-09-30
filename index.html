@@ -10,38 +10,104 @@
     <header>
       <nav class="topbar">
         <img class="logo" src="images/logo.png" alt="LCSC logo" />
-        <input class="searchbar" type="search" placeholder="Part #/ keyword" />
+        <div class="searchbar">
+          <input  type="search" placeholder="Part #/ keyword" />
+          <button type="submit"><img class="svg" src="images/search-icon.png" alt="Submit"></button>
+        </div>
+        
         <div class="account">
-          <img class="svg" id="account-svg" src="images/account.svg" alt="Account icon" />
-          <div>
-            <a href="https://passport.lcsc.com/#/login?">Log In</a>
-            <a href="https://passport.lcsc.com/#/register?">Register</a>
+          <img
+            class="svg"
+            id="account-svg"
+            src="images/account.svg"
+            alt="Account icon"
+          />
+          <div id="login">
+            <a rel="noopener" href="https://passport.lcsc.com/#/login?"
+              >Log In</a
+            >
+            <a rel="noopener" href="https://passport.lcsc.com/#/register?"
+              >Register</a
+            >
           </div>
           <div id="accorders">Account & Orders</div>
+          <img
+            class="svg"
+            id="shoppingcart-svg"
+            src="images/shopping-cart.svg"
+            alt="Shopping cart icon"
+          />
         </div>
-        <img class="svg"
-          src="images/shopping-cart.svg"
-          alt="Shopping cart icon"
-        />
       </nav>
       <nav class="bottombar">
         <ul>
-          <li><a href="https://www.lcsc.com/products">All Products</a></li>
-          <li><a href="https://www.lcsc.com/supplier">Manufacturers</a></li>
-          <li><a href="https://www.lcsc.com/bom">BOM Tool</a></li>
-          <li><a href="https://www.lcsc.com/inquiry">RFQ</a></li>
-          <li><span>Popular Products</span></li>
-          <li><a href="https://www.lcsc.com/pcba">PCB/SMT</a></li>
+          <li>
+            <a rel="noopener" href="https://www.lcsc.com/products"
+              >All Products</a
+            >
+          </li>
+          <li>
+            <a rel="noopener" href="https://www.lcsc.com/supplier"
+              >Manufacturers</a
+            >
+          </li>
+          <li>
+            <a rel="noopener" href="https://www.lcsc.com/bom">BOM Tool</a>
+          </li>
+          <li><a rel="noopener" href="https://www.lcsc.com/inquiry">RFQ</a></li>
+          <!-- <li><span>Popular Products</span></li> -->
+          <li>
+            <a rel="noopener" href="https://www.lcsc.com/pcba">PCB/SMT</a>
+          </li>
           <li>
             <a
+              rel="noopener"
               href="https://www.lcsc.com/customcables?utm_source=customcables&utm_medium=navbar"
               >Custom Cables</a
             >
           </li>
-          <li><a href="https://www.lcsc.com/front-panel">Front Panel</a></li>
-          <li><a href="https://www.lcsc.com/about/company">About LCSC</a></li>
+          <li>
+            <a rel="noopener" href="https://www.lcsc.com/front-panel"
+              >Front Panel</a
+            >
+          </li>
+          <li>
+            <a rel="noopener" href="https://www.lcsc.com/about/company"
+              >About LCSC</a
+            >
+          </li>
         </ul>
+        
       </nav>
     </header>
+    <main>
+      <article class="main-menu">
+        <section>
+          <nav>
+            <ul>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Capacitors_312.html">Capacitors</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Connectors_365.html">Connectors</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Crystals-Oscillators-Resonators_348.html">Crystals, Oscillators, Resonators</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Diodes_319.html">Diodes</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Embedded-Processors-Controllers_470.html">Embedded Processors & Controllers</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Filters_10991.html">Filters</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Inductors-Coils-Chokes_316.html">Inductors, Coils, Chokes</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Interface_575.html">Interface</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/IoT-Communication-Modules_938.html">IoT/Communication Modules</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Optoelectronics_450.html">Optoelectronics</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Power-Management-PMIC_380.html">Power Management (PMIC)</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Resistors_308.html">Resistors</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Sensors_513.html">Sensors</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Switches_423.html">Switches</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products/Transistors-Thyristors_320.html">Transistors/Thyristors</a></li>
+              <li><a rel="noopener" href="https://www.lcsc.com/products">View All Products</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="advert">
+          <img src="images/ad.png" alt="Advert for custom cables">
+        </section>
+      </article>
+    </main>
   </body>
 </html>
