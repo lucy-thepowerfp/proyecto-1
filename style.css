@@ -262,6 +262,7 @@ body {
 
 .price {
   color: var(--orange-color);
+  padding-bottom: 1vh;
 }
 
 footer{
